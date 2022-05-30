@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+/* Roboto substitui Gilroy */
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;500;600;700;800&display=swap');
+/* Assistant substitui Sovereign */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Assistant', sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+
+.h-container{
+    background-image: url('assets/header_01.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.stars{
+    position: relative;
+    top: 23vw;
+    left: 17.5vw;
+    width: 25%;
+}
+
+.wars{
+    position: relative;
+    top: 22vw;
+    left: 40.5vw;
+    width: 25%;
+}
+
+.kylo{
+    position: relative;
+    top: -4vw;
+    left: 8.5vw;
+    width: 70%;
+    z-index: 99999;
+}
+
+.h-txt{
+    position: absolute;
+    left: 80vw;
+    top: 33vw;
+    width: 15%;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.p-legion, .p-legion-two{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.6vw;
+}
+
+.p-legion-two{
+    width: max-content;
+}
+
+.p-legion-two::after{
+    content: '';
+    display: block;
+    border: 1px solid;
+    width: 100%;
+    margin: 1vh 0;
+}
+
+.h-txt div{
+    display: flex;
+    align-items: center;
+}
+
+.p-number{
+    font-size: 1.2vw;
+}
+
+.p-number span{
+    font-size: 1.7vw;
+}
+
+.h-btn-spc{
+    margin-left: 1rem;
+}
+
+.h-btn{
+    margin-left: .3rem;
+}
+
+.h-btn, .h-btn-spc{
+    background-color: #a9bdc1;
+    color: #050606;
+    cursor: pointer;
+    border: none;
+    padding: 0 .2vw;
+    text-align: center;
+    font-size: .5vw;
+    font-weight: 800;
+    margin-top: .6rem;
+}
+
+.main-first-container{
+    background-image: url('assets/main\ [1]_00.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    position: relative;
+    bottom: 11.5vw;
+}
+
+.main-first-box{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 auto;
+}
+
+.main-card{
+    background-image: url('assets/main\ [1]_01.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -2vw;
+    left: 6vw;
+    z-index: 99999;
+}
+
+.main-card h3{
+    width: 60%;
+    font-size: 3.1rem;
+    padding: 4rem 0;
+    position: relative;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paragraph-card{
+    font-size: 1.25rem;
+    padding: 0 2rem 5rem 2rem;
+    position: relative;
+    color: white;
+    text-align: left;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.card-btn{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: .5rem 2rem;
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.paragraph-card-especial{
+    width: 80%;
+    font-size: 0.8rem;
+    padding: 2rem 0 3rem 0;
+    color: white;
+    text-align: right;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-first-txt{
+   display: flex;
+   align-items: flex-end;
+   gap: 1rem;
+   position: relative; 
+   bottom: 1.5vw; 
+   width: 58%;
+}
+
+.about-game{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.about-game h3{
+    font-weight: 800;
+    font-size: 1.6vw;
+    text-transform: uppercase;
+    align-self: flex-end;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.about-game h3::after{
+    content: '';
+    display: block;
+    position: relative;
+    left: 20%;
+    border: 2px solid;
+    width: 9vw;
+    margin: 1vh 0;
+}
+
+.about-game p{
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: right;
+    font-family: 'Open Sans', sans-serif;
+}   
+
+.main-second-box{
+    width: 100%;
+    position: relative;
+}
+
+.main-second-box::before{
+    content: '';
+    display: block;
+    position: relative;
+    left: 14.3vw;
+    width: 77.2%;
+    border: 2px solid;
+    margin-top: 5rem;
+}
+
+.box-second-wrapper{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.sith{
+    width: 100%;
+    position: relative;
+    top: 3.8rem;
+    left: 15rem;
+}
+
+.rey{
+    position: relative;
+    top: 10rem;
+    right: 10rem;
+}
+
+/* .sith img{
+    width: 100%;
+}
+
+.rey img{
+    width: 100%;
+} */
+
+.main-box-nav{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 9999;
+    top: 8rem;
+    right: 9.2vw;
+    width: 100%;
+}
+
+.main-box-nav h2{
+    width: 60%;
+    align-self: flex-end;
+    text-align: right;
+    font-size: 3.7vw;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-h2-spc{
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;    
+}
+
+
+.main-ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-ul li{
+    align-self: flex-end;
+    text-align: right;
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.main-ul li:hover{
+    background-color: #d74430;
+}
+
+.main-ul a{
+    font-size: 1.8vw;
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Assistant', sans-serif;
+}
+
+.main-ul a:hover{
+    color: white;
+}
+
