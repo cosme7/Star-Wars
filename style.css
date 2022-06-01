@@ -18,7 +18,6 @@ body{
     background-color: blueviolet;
 }
 
-
 .h-container{
     background-image: url('assets/header_01.png');
     background-repeat: no-repeat;
@@ -26,6 +25,7 @@ body{
     width: 100%;
     margin: 0 auto;
     position: relative;
+    margin-bottom: -12vw;
 }
 
 .stars{
@@ -113,10 +113,8 @@ body{
     background-image: url('assets/main\ [1]_00.png');
     background-color: white;
     background-repeat: no-repeat;
-    background-size: contain;
-    width: 100vw;
+    width: 100%;
     position: relative;
-    bottom: 11.5vw;
 }
 
 .main-first-box{
@@ -131,7 +129,7 @@ body{
     background-image: url('assets/main\ [1]_01.png');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 390px;
+    max-width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -143,7 +141,7 @@ body{
 
 .main-card h3{
     width: 60%;
-    font-size: 3.1rem;
+    font-size: 2.6vw;
     padding: 4rem 0;
     position: relative;
     color: white;
@@ -154,7 +152,7 @@ body{
 }
 
 .paragraph-card{
-    font-size: 1.25rem;
+    font-size: 1.1vw;
     padding: 0 2rem 5rem 2rem;
     position: relative;
     color: white;
@@ -228,60 +226,59 @@ body{
     font-family: 'Open Sans', sans-serif;
 }   
 
-.main-second-box{
-    width: 100%;
-    position: relative;
+.about-fig{
+    width: 100vw;
 }
 
-.main-second-box::before{
-    content: '';
+.about-fig img{
+    width: 100%;
+}
+
+.main-line{
     display: block;
+    width: 78%;
+    height: 4px;
+    background-color: black;
     position: relative;
-    left: 14.3vw;
-    width: 77.2%;
-    border: 2px solid;
-    margin-top: 5rem;
+    left: 14vw;
+    margin-top: 2.5rem;
 }
 
-.box-second-wrapper{
-    width: 100%;
+.main-second-box{
+    max-width: 1600px;
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
     position: relative;
+    padding: 4rem 0 6rem;
 }
 
 .sith{
-    width: 100%;
-    position: relative;
-    top: 3.8rem;
-    left: 15rem;
+    width: 47%;
+    position: absolute;
+    z-index: 9999;
+    left: 5vw;
+    bottom: -3vw;
 }
 
 .rey{
-    position: relative;
-    top: 10rem;
-    right: 10rem;
+    width: 24%;
+    position: absolute;
+    z-index: 9999;
+    right: 0;
 }
-
-/* .sith img{
-    width: 100%;
-}
-
-.rey img{
-    width: 100%;
-} */
 
 .main-box-nav{
     display: flex;
     flex-direction: column;
+    width: 30vw;
     position: relative;
-    z-index: 9999;
-    top: 8rem;
-    right: 9.2vw;
-    width: 100%;
+    left: 5.5vw;
+    z-index: 99999;
 }
 
 .main-box-nav h2{
-    width: 60%;
+    width: 25vw;
     align-self: flex-end;
     text-align: right;
     font-size: 3.7vw;
@@ -295,7 +292,6 @@ body{
     font-family: 'Roboto', sans-serif;    
 }
 
-
 .main-ul{
     display: flex;
     flex-direction: column;
@@ -305,7 +301,7 @@ body{
     align-self: flex-end;
     text-align: right;
     margin-top: 1rem;
-    width: 80%;
+    width: 30vw;
 }
 
 .main-ul li:hover{
@@ -313,7 +309,7 @@ body{
 }
 
 .main-ul a{
-    font-size: 1.8vw;
+    font-size: 1.9vw;
     color: black;
     font-weight: 500;
     text-transform: uppercase;
@@ -325,3 +321,457 @@ body{
     color: white;
 }
 
+.main-mid-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    position: relative;
+    background-color: #2D2D2D;
+}
+
+.main-mid-box{
+    max-width: 1640px;
+    padding-top: 8rem;
+    position: relative;
+    margin: 0 auto;
+}
+
+.attribute{
+    font-size: 2.65vw;
+    padding-bottom: 3rem;
+    margin-left: 7vw;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mid-img-box{
+    display: flex;
+    width: 100%;
+}
+
+.mid-img-box img{
+    width: 100%;
+}
+
+/* BIG CARD!! */
+
+.fig-big{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.big-card{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 3rem 1rem 2.5rem;
+    position: absolute;
+    top: -505px;
+    color: white;
+    transition: 1s all;
+    background-color: rgb(215, 68, 48, 0.7);
+}
+
+.fig-big:hover .big-card{
+    top: 0;
+}
+
+.big-card::before, .big-card::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    width: 10%;
+}
+
+.big-card::before{
+    top: .3rem;
+    left: 0.9rem;
+    right: 1rem;
+}
+
+.big-card::after{
+    bottom: 1.2rem;
+    right: 1rem;
+}
+
+.big-card h3::before{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 80px;
+}
+
+.big-card h3::before{
+    top: -1rem;
+    left: -1.6rem;
+}
+
+.big-card p::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 80px;
+}
+
+.big-card p::after{
+    bottom: 1.2rem;
+    right: 1rem;
+}
+
+.big-card h3{
+    width: 55%;
+    text-align: left;
+    position: relative;
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.big-card p{
+    width: 100%;
+    margin: 2rem 0 4rem 0;
+    font-size: 1.5vw;
+    font-weight: 300;
+    font-family: 'Assistant', sans-serif;
+}
+
+.big-card button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    font-size: .8vw;
+    font-weight: 300;
+    padding: .5vw 2.5vw;
+}
+
+/* BIG CARD!! */
+
+.fig-mid{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.mid-card{
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 3rem 1rem 2.5rem;
+    position: absolute;
+    top: -255px;
+    color: white;
+    transition: 1s all;
+    background-color: rgb(215, 68, 48, 0.7);
+}
+
+.fig-mid:hover .mid-card{
+    top: 0;
+}
+
+.mid-card::before, .mid-card::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    width: 13%;
+    margin: 0;
+}
+
+.mid-card::before{
+    top: .3rem;
+    left: 0.9rem;
+    right: 1rem;
+}
+
+.mid-card::after{
+    bottom: 1.2rem;
+    right: 1rem;
+}
+
+.mid-card h3::before{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 70%;
+}
+
+.mid-card h3::before{
+    top: -1rem;
+    left: -1.6rem;
+}
+
+.mid-card p::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 20%;
+}
+
+.mid-card p::after{
+    bottom: 1.2rem;
+    right: 1rem;
+}
+
+.mid-card h3{
+    width: 55%;
+    text-align: left;
+    position: relative;
+    font-size: 1.35vw;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mid-card p{
+    width: 100%;
+    margin: 1rem 0 2rem 0;
+    font-size: .8vw;
+    font-weight: 300;
+    font-family: 'Assistant', sans-serif;
+}
+
+.mid-card button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    font-size: .8vw;
+    font-weight: 300;
+    padding: .5vw 2.5vw;
+}
+
+.mid-second-box{
+    max-width: 1640px;
+    margin: 0 auto;
+}
+
+.mid-second-box figure{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mid-second-box img{
+    width: 100%;
+}
+
+.mid-second-box figcaption{
+    width: 55%;
+    font-size: 1.05vw;
+    padding-top: 1.5rem;
+    color: white;
+    text-align: right;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mid-second-box h2{
+    font-size: 2.65vw;
+    padding: 10rem 0;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif;
+}
+
+.main-low-container{
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+
+.low-wrapper{
+    max-width: 1640px;
+    padding-bottom: 15rem;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.black-cape-fig{
+    width: 20%;
+    position: relative;
+}
+
+.black-cape-fig img{
+    width: 19vw;
+    position: absolute;
+    bottom: -2vw;
+    left: 10vw;
+}
+
+.main-low-btns{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-top: 6rem;
+    gap: 6rem;
+}
+
+.main-low-h3{
+    font-size: 2vw;
+    padding-bottom: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-low-h3:hover{
+    font-weight: 800;
+}
+
+.low-btn{
+    cursor: pointer;
+    padding: 0.5vw 2.7vw;
+    font-size: 1.6vw;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    background-color: black;
+    background: linear-gradient(to right, black 50%, #d74430 50%);
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+.low-btn:hover{
+    background-color: #d74430;
+    background-position: right;
+}
+
+.main-low-btns p{
+    font-size: 1.05vw;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+.low-spc{
+    padding-top: 1.5rem;
+}
+
+.download, .choice, .explore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.low-line{
+    width: 40%;
+    height: 4px;
+    display: block;
+    margin-top: 1.5rem;
+    background-color: black;
+    background: linear-gradient(to right, black 50%, #d74430 50%);
+    background-size: 200%;
+    transition: 0.5s ease-out;
+}
+
+.low-line:hover{
+    background-color: #d74430;
+    background-position: right;
+}
+
+.footer-container{
+    max-width: 1920px;  
+    height: fit-content;
+    background-color: white;
+    position: relative;
+}
+
+.footer-wrapper{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background-color: #FF5A56;
+    position: relative;
+}
+
+.footer-box{
+    width: 70%;   
+    padding: 4rem 19.5rem 2rem;
+    text-align: left;
+}
+
+.footer-box h2{
+    font-size: 2.65vw;
+    padding-bottom: 2rem;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Assistant', sans-serif;
+}
+
+.footer-box p{
+    width: 88%;
+    font-size: 1.05vw;
+    font-weight: 300;
+    color: white;
+    font-family: 'Open Sans', sans-serif;    
+}
+
+.fig-sociais{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.footer-line{
+    content: '';
+    display: block;
+    border: 2px solid black;
+    width: 86.5%;
+    margin: 3rem 0;
+}
+
+.fig-sociais img{
+    width: 100%;
+}
+
+.footer-swlogo{
+    width: 40%;
+    padding-bottom: 1rem;
+}
+
+.footer-swlogo img{
+    width: 100%;
+}
+
+.fig-vader img{
+    width: 39vw;
+    position: absolute;
+    z-index: 9999;
+    bottom: 1.2rem;
+    right: 6.5rem;
+}
+
+.footer-img-div{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: white;
+    width: 40%;
+}
+
+.footer-img-div p{
+    width: 60%;
+    text-align: left;
+    font-size: .7rem;
+    padding-bottom: 2rem;
+    word-break: break-all;
+    font-weight: 400;
+    color: black;
+    font-family: 'Open Sans', sans-serif;  
+}
