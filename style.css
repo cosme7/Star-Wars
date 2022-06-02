@@ -9,14 +9,10 @@
     margin: 0;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Assistant', sans-serif;
+    text-decoration: none;
 }
 
-body{
-    background-color: blueviolet;
-}
+/* HEADER!! */
 
 .h-container{
     background-image: url('assets/header_01.png');
@@ -25,7 +21,7 @@ body{
     width: 100%;
     margin: 0 auto;
     position: relative;
-    margin-bottom: -12vw;
+    margin-bottom: -14vw;
 }
 
 .stars{
@@ -52,6 +48,7 @@ body{
 
 .h-txt{
     position: absolute;
+    z-index: 99999;
     left: 80vw;
     top: 33vw;
     width: 15%;
@@ -71,9 +68,10 @@ body{
 .p-legion-two::after{
     content: '';
     display: block;
-    border: 1px solid;
+    border: 1px solid black;
+    background-color: black;
     width: 100%;
-    margin: 1vh 0;
+    margin: 1vw 0;
 }
 
 .h-txt div{
@@ -90,11 +88,11 @@ body{
 }
 
 .h-btn-spc{
-    margin-left: 1rem;
+    margin-left: .5vw;
 }
 
 .h-btn{
-    margin-left: .3rem;
+    margin-left: .3vw;
 }
 
 .h-btn, .h-btn-spc{
@@ -106,19 +104,24 @@ body{
     text-align: center;
     font-size: .5vw;
     font-weight: 800;
-    margin-top: .6rem;
+    margin-top: .6vw;
 }
+
+/* HEADER END!! */
+
+/* MAIN 1º CONTAINER */
 
 .main-first-container{
     background-image: url('assets/main\ [1]_00.png');
     background-color: white;
     background-repeat: no-repeat;
+    background-size: contain;
     width: 100%;
     position: relative;
 }
 
 .main-first-box{
-    max-width: 1600px;
+    width: 85vw;
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -129,7 +132,7 @@ body{
     background-image: url('assets/main\ [1]_01.png');
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 25%;
+    width: 22vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -140,9 +143,9 @@ body{
 }
 
 .main-card h3{
-    width: 60%;
+    width: 12vw;
     font-size: 2.6vw;
-    padding: 4rem 0;
+    padding: 3vw 0;
     position: relative;
     color: white;
     text-align: center;
@@ -153,7 +156,7 @@ body{
 
 .paragraph-card{
     font-size: 1.1vw;
-    padding: 0 2rem 5rem 2rem;
+    padding: 0 2vw 5vw 2vw;
     position: relative;
     color: white;
     text-align: left;
@@ -165,9 +168,9 @@ body{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid white;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     border-radius: 5px;
-    padding: .5rem 2rem;
+    padding: .5vw 2vw;
     position: relative;
     color: white;
     text-transform: uppercase;
@@ -176,9 +179,9 @@ body{
 }
 
 .paragraph-card-especial{
-    width: 80%;
-    font-size: 0.8rem;
-    padding: 2rem 0 3rem 0;
+    width: 20vw;
+    font-size: 0.8vw;
+    padding: 2vw 0 3vw 0;
     color: white;
     text-align: right;
     font-weight: 200;
@@ -191,18 +194,18 @@ body{
    gap: 1rem;
    position: relative; 
    bottom: 1.5vw; 
-   width: 58%;
+   width: 45vw;
 }
 
 .about-game{
     display: flex;
     flex-direction: column;
-    position: relative;
+    margin-bottom: .5vw;
 }
 
 .about-game h3{
     font-weight: 800;
-    font-size: 1.6vw;
+    font-size: 1.7vw;
     text-transform: uppercase;
     align-self: flex-end;
     font-family: 'Open Sans', sans-serif;
@@ -216,7 +219,7 @@ body{
     left: 20%;
     border: 2px solid;
     width: 9vw;
-    margin: 1vh 0;
+    margin: .5vw 0;
 }
 
 .about-game p{
@@ -226,46 +229,41 @@ body{
     font-family: 'Open Sans', sans-serif;
 }   
 
-.about-fig{
-    width: 100vw;
-}
-
 .about-fig img{
-    width: 100%;
+    width: 20vw;
 }
 
 .main-line{
-    display: block;
-    width: 78%;
-    height: 4px;
-    background-color: black;
+    width: 79.2vw;
+    border: #707070 1px solid;
     position: relative;
-    left: 14vw;
-    margin-top: 2.5rem;
+    left: 13vw;
+    margin-top: 2.5vw;
 }
 
 .main-second-box{
-    max-width: 1600px;
+    width: 85vw;
     display: flex;
     justify-content: center;
     margin: 0 auto;
     position: relative;
-    padding: 4rem 0 6rem;
+    padding: 4vw 0 6vw;
 }
 
 .sith{
-    width: 47%;
+    width: 41vw;
     position: absolute;
-    z-index: 9999;
-    left: 5vw;
+    z-index: 999;
+    right: 40vw;
     bottom: -3vw;
 }
 
 .rey{
-    width: 24%;
+    width: 20vw;
     position: absolute;
-    z-index: 9999;
-    right: 0;
+    z-index: 999;
+    right: -1vw;
+    bottom: -4vw;
 }
 
 .main-box-nav{
@@ -274,7 +272,6 @@ body{
     width: 30vw;
     position: relative;
     left: 5.5vw;
-    z-index: 99999;
 }
 
 .main-box-nav h2{
@@ -300,7 +297,7 @@ body{
 .main-ul li{
     align-self: flex-end;
     text-align: right;
-    margin-top: 1rem;
+    margin-top: 1vw;
     width: 30vw;
 }
 
@@ -313,7 +310,6 @@ body{
     color: black;
     font-weight: 500;
     text-transform: uppercase;
-    text-decoration: none;
     font-family: 'Assistant', sans-serif;
 }
 
@@ -321,26 +317,27 @@ body{
     color: white;
 }
 
+/* MAIN 2º CONTAINER */
+
 .main-mid-container{
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    position: relative;
     background-color: #2D2D2D;
 }
 
 .main-mid-box{
-    max-width: 1640px;
-    padding-top: 8rem;
+    width: 85vw;
+    padding-top: 8vw;
     position: relative;
     margin: 0 auto;
 }
 
 .attribute{
     font-size: 2.65vw;
-    padding-bottom: 3rem;
-    margin-left: 7vw;
+    padding-bottom: 3vw;
+    margin-left: 6vw;
     color: white;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
@@ -348,25 +345,101 @@ body{
 
 .mid-img-box{
     display: flex;
-    width: 100%;
+    width: 85vw;
 }
 
 .mid-img-box img{
     width: 100%;
 }
 
-/* BIG CARD!! */
+/* BIG CARD CONFIG!! */
+.big-card::before, .big-card::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    width: 4vw;
+}
 
-.fig-big{
+.big-card::before{
+    top: .3vw;
+    left: 0.9vw;
+    right: 1vw;
+}
+
+.big-card::after{
+    bottom: 1.2vw;
+    right: 1vw;
+}
+
+.big-card h3::before{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    top: -.7vw;
+    left: -1.6vw;
+    height: 3.5vw;
+}
+
+.big-card p::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    bottom: 1.2vw;
+    right: 1vw;
+    height: 3.5vw;
+}
+/* BIG CARD CONFIG!! */
+
+/* MID CARD CONFIG!! */
+.mid-card::before, .mid-card::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    width: 3vw;
+    margin: 0;
+}
+
+.mid-card::before{
+    top: .3vw;
+    left: 1.1vw;
+    right: 1vw;
+}
+
+.mid-card::after{
+    bottom: 1.2vw;
+    right: 1vw;
+}
+
+.mid-card h3::before{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 2.5vw;
+    top: -.7vw;
+    left: -1.6vw;
+}
+
+.mid-card p::after{
+    content: '';
+    border: 2px solid white;
+    position: absolute;
+    height: 2.5vw;
+    bottom: 1.2vw;
+    right: 1vw;
+}
+/* MID CARD CONFIG END!! */
+
+/* ALL CARDS INFO */
+.fig-mid, .fig-big{
     position: relative;
     overflow: hidden;
     width: 100%;
 }
 
-.big-card{
+.mid-card, .big-card{
     width: 100%;
     height: 100%;
-    padding: 1.5rem 3rem 1rem 2.5rem;
+    padding: 1vw 3vw 1vw 2.5vw;
     position: absolute;
     top: -505px;
     color: white;
@@ -374,151 +447,12 @@ body{
     background-color: rgb(215, 68, 48, 0.7);
 }
 
-.fig-big:hover .big-card{
+.fig-mid:hover .mid-card, .fig-big:hover .big-card{
     top: 0;
 }
 
-.big-card::before, .big-card::after{
-    content: '';
-    border: 2px solid white;
-    position: absolute;
-    width: 10%;
-}
-
-.big-card::before{
-    top: .3rem;
-    left: 0.9rem;
-    right: 1rem;
-}
-
-.big-card::after{
-    bottom: 1.2rem;
-    right: 1rem;
-}
-
-.big-card h3::before{
-    content: '';
-    border: 2px solid white;
-    position: absolute;
-    height: 80px;
-}
-
-.big-card h3::before{
-    top: -1rem;
-    left: -1.6rem;
-}
-
-.big-card p::after{
-    content: '';
-    border: 2px solid white;
-    position: absolute;
-    height: 80px;
-}
-
-.big-card p::after{
-    bottom: 1.2rem;
-    right: 1rem;
-}
-
-.big-card h3{
-    width: 55%;
-    text-align: left;
-    position: relative;
-    font-size: 2vw;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
-}
-
-.big-card p{
-    width: 100%;
-    margin: 2rem 0 4rem 0;
-    font-size: 1.5vw;
-    font-weight: 300;
-    font-family: 'Assistant', sans-serif;
-}
-
-.big-card button{
-    cursor: pointer;
-    background-color: transparent;
-    border: 3px solid white;
-    color: white;
-    position: absolute;
-    bottom: 1vw;
-    left: 1vw;
-    font-size: .8vw;
-    font-weight: 300;
-    padding: .5vw 2.5vw;
-}
-
-/* BIG CARD!! */
-
-.fig-mid{
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-}
-
-.mid-card{
-    width: 100%;
-    height: 100%;
-    padding: 1.5rem 3rem 1rem 2.5rem;
-    position: absolute;
-    top: -255px;
-    color: white;
-    transition: 1s all;
-    background-color: rgb(215, 68, 48, 0.7);
-}
-
-.fig-mid:hover .mid-card{
-    top: 0;
-}
-
-.mid-card::before, .mid-card::after{
-    content: '';
-    border: 2px solid white;
-    position: absolute;
-    width: 13%;
-    margin: 0;
-}
-
-.mid-card::before{
-    top: .3rem;
-    left: 0.9rem;
-    right: 1rem;
-}
-
-.mid-card::after{
-    bottom: 1.2rem;
-    right: 1rem;
-}
-
-.mid-card h3::before{
-    content: '';
-    border: 2px solid white;
-    position: absolute;
-    height: 70%;
-}
-
-.mid-card h3::before{
-    top: -1rem;
-    left: -1.6rem;
-}
-
-.mid-card p::after{
-    content: '';
-    border: 2px solid white;
-    position: absolute;
-    height: 20%;
-}
-
-.mid-card p::after{
-    bottom: 1.2rem;
-    right: 1rem;
-}
-
-.mid-card h3{
-    width: 55%;
+.mid-card h3, .big-card h3{
+    width: 10vw;
     text-align: left;
     position: relative;
     font-size: 1.35vw;
@@ -528,14 +462,22 @@ body{
 }
 
 .mid-card p{
-    width: 100%;
-    margin: 1rem 0 2rem 0;
+    width: 17vw;
+    margin: 1vw 0 4vw 0;
     font-size: .8vw;
     font-weight: 300;
     font-family: 'Assistant', sans-serif;
 }
 
-.mid-card button{
+.big-card p{
+    width: 35vw;
+    margin: 2vw 0 4vw 0;
+    font-size: 1.5vw;
+    font-weight: 300;
+    font-family: 'Assistant', sans-serif;
+}
+
+.mid-card button, .big-card button{
     cursor: pointer;
     background-color: transparent;
     border: 3px solid white;
@@ -547,9 +489,10 @@ body{
     font-weight: 300;
     padding: .5vw 2.5vw;
 }
+/* ALL CARDS INFO END */
 
 .mid-second-box{
-    max-width: 1640px;
+    width: 85vw;
     margin: 0 auto;
 }
 
@@ -564,7 +507,7 @@ body{
 }
 
 .mid-second-box figcaption{
-    width: 55%;
+    width: 45vw;
     font-size: 1.05vw;
     padding-top: 1.5rem;
     color: white;
@@ -575,12 +518,14 @@ body{
 
 .mid-second-box h2{
     font-size: 2.65vw;
-    padding: 10rem 0;
+    padding: 10vw 0;
     color: white;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Assistant', sans-serif;
 }
+
+/* MAIN 3º CONTAINER */
 
 .main-low-container{
     width: 100%;
@@ -589,31 +534,27 @@ body{
 }
 
 .low-wrapper{
-    max-width: 1640px;
-    padding-bottom: 15rem;
+    width: 85vw;
+    padding-bottom: 10vw;
     margin: 0 auto;
     display: flex;
     position: relative;
 }
 
-.black-cape-fig{
-    width: 20%;
-    position: relative;
-}
-
 .black-cape-fig img{
-    width: 19vw;
+    width: 21vw;
     position: absolute;
-    bottom: -2vw;
-    left: 10vw;
+    bottom: 8vw;
+    left: 6vw;
+    z-index: 99999;
 }
 
 .main-low-btns{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    padding-top: 6rem;
-    gap: 6rem;
+    padding-top: 4vw;
+    gap: 5vw;
 }
 
 .main-low-h3{
@@ -622,10 +563,6 @@ body{
     font-weight: 300;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-}
-
-.main-low-h3:hover{
-    font-weight: 800;
 }
 
 .low-btn{
@@ -648,6 +585,15 @@ body{
     background-position: right;
 }
 
+.div-low-btn:hover h3{
+    font-weight: 800;
+}
+
+.div-low-btn:hover .low-line{
+    background-color: #d74430;
+    background-position: right;
+}
+
 .main-low-btns p{
     font-size: 1.05vw;
     font-weight: 300;
@@ -658,50 +604,40 @@ body{
 }
 
 .low-spc{
-    padding-top: 1.5rem;
+    padding-top: 1.5vw;
 }
 
-.download, .choice, .explore{
+.div-low-btn{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .low-line{
-    width: 40%;
+    width: 6vw;
     height: 4px;
     display: block;
-    margin-top: 1.5rem;
+    margin-top: 1.5vw;
     background-color: black;
     background: linear-gradient(to right, black 50%, #d74430 50%);
     background-size: 200%;
     transition: 0.5s ease-out;
 }
 
-.low-line:hover{
-    background-color: #d74430;
-    background-position: right;
-}
+/* FOOTER CONTAINER */
 
 .footer-container{
-    max-width: 1920px;  
-    height: fit-content;
-    background-color: white;
-    position: relative;
-}
-
-.footer-wrapper{
     width: 100%;
-    height: fit-content;
+    background-color: white;
     display: flex;
-    background-color: #FF5A56;
     position: relative;
 }
 
 .footer-box{
-    width: 70%;   
-    padding: 4rem 19.5rem 2rem;
+    width: 65vw;
+    padding: 4vw 19.5vw 2vw;
     text-align: left;
+    background-color: #FF5A56;
 }
 
 .footer-box h2{
@@ -713,7 +649,7 @@ body{
 }
 
 .footer-box p{
-    width: 88%;
+    width: 28vw;
     font-size: 1.05vw;
     font-weight: 300;
     color: white;
@@ -722,8 +658,7 @@ body{
 
 .fig-sociais{
     display: flex;
-    gap: 1rem;
-    width: 100%;
+    gap: 1vw;
     position: relative;
     padding-top: 2rem;
 }
@@ -732,29 +667,24 @@ body{
     content: '';
     display: block;
     border: 2px solid black;
-    width: 86.5%;
-    margin: 3rem 0;
+    width: 28vw;
+    margin: 3vw 0;
 }
 
-.fig-sociais img{
-    width: 100%;
+.fig-sociais img, .footer-swlogo img{
+    width: 13.5vw;
 }
 
 .footer-swlogo{
-    width: 40%;
-    padding-bottom: 1rem;
-}
-
-.footer-swlogo img{
-    width: 100%;
+    padding-bottom: 1vw;
 }
 
 .fig-vader img{
     width: 39vw;
     position: absolute;
     z-index: 9999;
-    bottom: 1.2rem;
-    right: 6.5rem;
+    bottom: 1vw;
+    right: 5vw;
 }
 
 .footer-img-div{
@@ -762,16 +692,328 @@ body{
     justify-content: center;
     align-items: flex-end;
     background-color: white;
-    width: 40%;
+    width: 45vw;
 }
 
 .footer-img-div p{
-    width: 60%;
+    width: 20vw;
     text-align: left;
-    font-size: .7rem;
-    padding-bottom: 2rem;
+    font-size: .6vw;
+    padding-bottom: 2vw;
     word-break: break-all;
-    font-weight: 400;
+    font-weight: 600;
     color: black;
     font-family: 'Open Sans', sans-serif;  
+}
+
+/* @MEDIA START */
+
+@media(max-width:700px){
+    /* @MEDIA HEADER */
+    .h-txt{
+        top: 34.9vw;
+        z-index: 9999;
+    }
+
+    .p-legion, .p-legion-two{
+        font-size: 2vw;
+        font-weight: 600;
+    }
+
+    .p-legion-two::after{
+        border: 1.5px solid;
+        width: 9vw;
+        margin: 2vw 0 0;
+    }
+
+    .p-number{
+        font-size: 1.5vw;
+        margin-top: 1.4vw;
+    }
+    
+    .p-number span{
+        font-size: 2vw;
+    }
+
+    .h-btn, .h-btn-spc{
+        padding: 0 .8vw;
+        font-size: 2vw;
+    }
+    /* @MEDIA MAIN 1º CONTAINER */
+    .main-first-container{
+        background-size: 100vw 85vw;
+    }
+    /* @MEDIA 1º BOX (CARD/ABOUT) */
+    .main-first-box{
+        flex-direction: column;
+        align-items: flex-end;
+        width: 80vw;
+        padding-top: 15vw;
+        gap: 3vw;
+    }
+
+    .main-card{
+        position: initial;
+        width: 45vw;
+        height: 55vw;
+        justify-content: space-between;
+    }
+
+    .main-card h3{
+        font-size: 5vw;
+        width: 25vw;
+    }
+
+    .paragraph-card{
+        font-size: 2.5vw;
+    }
+
+    .card-btn{        
+        font-size: 3vw;
+        border-radius: 5px;
+        padding: .5vw 2.5vw;
+    }
+
+    .paragraph-card-especial{
+        font-size: 1vw;
+        text-align: center;
+    }
+
+    .main-first-txt{
+        flex-direction: column;
+        gap: .5vw;
+        position: initial;
+        margin-top: 1vw;
+    }
+
+    .about-game h3{
+        text-align: right;
+        font-size: 3vw;
+    }
+    
+    .about-game h3::after{  
+        left: 29%;
+        border: 1px solid;
+        width: 15vw;
+        margin: .5vw 0 1vw;
+    }
+
+    .about-game p{
+        width: 60vw;
+        font-size: 2.5vw;
+    }
+
+    .about-fig{
+        order: -1;
+    }
+
+    .about-fig img{
+        width: 50vw;
+    }
+
+    .main-line{
+        width: 60vw;
+        left: 30vw;
+        margin-top: 2.5vw;
+    }
+    /* @MEDIA 2º BOX (NAV-UL) */
+    .main-second-box{
+        width: 100vw;
+        background-color: white;  
+        padding: 6vw 0 1.5vw;
+    }
+
+    .sith{
+        right: 50vw;
+        bottom: -9vw;
+    }
+
+    .rey{
+        right: 6vw;
+        bottom: -9vw;
+    }
+
+    .main-box-nav h2{
+        line-height: 3.5vw;
+        margin-bottom: .5vw;
+    }
+
+    .main-ul li{
+        margin-top: 0;
+        width: 35vw;
+        line-height: 3vw;
+    }
+
+    .main-ul a{
+        font-size: 2.2vw;
+    }
+    /* @MEDIA MAIN SECOND CONTAINER */
+    .attribute{
+        text-align: center;
+        font-size: 4vw;
+    }
+
+    .mid-img-box{
+        flex-direction: column;
+    }
+    /* @MEDIA CONFIG CARDS 2º CONTAINER */
+    .mid-card, .big-card{
+        padding-top: 2vw;
+        padding-left: 4vw;
+    }
+
+    .big-card h3, .mid-card h3{
+        font-size: 5vw;
+    }
+    
+    .big-card p, .mid-card p{
+        width: 65vw;
+        font-size: 2.5vw;
+    }
+
+    .big-card button, .mid-card button{
+        bottom: 1.5vw;
+        font-size: 3vw;
+    }
+    
+    .big-card::before, .big-card::after, .mid-card::before, .mid-card::after{
+        width: 7vw;
+        border: 1px solid white;
+    }
+
+    .big-card h3::before, .big-card p::after, .mid-card h3::before, .mid-card p::after{
+        height: 7vw;
+        border: 1px solid white;
+    }
+    
+    .big-card h3::before, .mid-card h3::before{
+        top: -1.5vw;
+        left: -3vw;
+    }
+    /* @MEDIA 2º BOX FROM 2º CONTAINER */
+    .mid-second-box{
+        width: 100%;
+    }
+
+    .mid-second-box figcaption{
+        width: 60vw;
+        font-size: 2vw;
+        padding-top: .5vw;
+        margin-right: 5vw;
+    }
+    
+    .mid-second-box h2{
+        font-size: 5vw;
+        padding: 7vw 0;
+        text-align: right;
+        margin-right: 5vw;
+    }
+    /* @MEDIA MAIN 3º CONTAINER */
+    .low-wrapper{
+        width: 100%;
+        padding-bottom: 2vw;
+        margin: 0 auto;
+    }
+
+    .black-cape-fig img{
+        width: 49vw;
+        bottom: 1vw;
+        left: -15vw;
+    }
+    /* @MEDIA 3º CONTAINER DIV BUTTONS */
+    .main-low-btns{
+        flex-direction: column;
+        gap: 2vw;
+        padding: 1.5vw 0 6vw;
+        align-items: flex-end;
+        width: 95%;
+    }
+
+    .main-low-h3{
+        font-size: 5vw;
+        padding-bottom: 1vw;
+        font-weight: 400;
+    }
+
+    .low-btn{
+        font-size: 3vw;
+        padding: 2vw 8vw;
+    }
+
+    .btn-spc{
+        padding: 2vw 9.21vw;
+    }
+
+    .btn-spc-two{
+        padding: 2vw 9.392vw;
+    }
+
+    .div-low-btn p{
+        font-size: 3vw;
+    }
+
+    .low-spc{
+        padding-top: .5vw;
+    }
+
+    .low-line{
+        width: 16vw;
+        margin-top: 0;
+    }
+    /* @MEDIA FOOTER CONTAINER */
+    .footer-container{
+        flex-direction: column;
+    }
+    /* @MEDIA FOOTER 1º DIV */
+    .footer-box{
+        width: 100vw;
+        padding: 5vw 8vw 30vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-box h2{
+        font-size: 15vw;
+        padding-bottom: 1vw;
+    }
+
+    .footer-box p{
+        width: 80vw;
+        font-size: 3vw;
+        text-align: left;
+    }
+
+    .fig-sociais{
+        padding-top: 4vw;
+    }
+
+    .fig-sociais img, .footer-swlogo img{
+        width: 40vw;
+    }
+
+    .footer-line{
+        width: 80vw;
+        margin-bottom: 5vw;
+    }
+
+    .footer-swlogo{
+        padding-bottom: 2vw;
+    }
+
+    .fig-vader img{
+        width: 60vw;
+        bottom: 6vw;
+        left: 19vw;
+    }
+        /* FOOTER 2º DIV */
+    .footer-img-div{
+        width: 100vw;
+        height: 55vw;
+    }
+    
+    .footer-img-div p{
+        font-size: 1.5vw;
+        width: 53vw;
+    }
 }
