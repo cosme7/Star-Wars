@@ -709,7 +709,7 @@
 /* @MEDIA START */
 
 @media(max-width:700px){
-    /* @MEDIA HEADER */
+/* @MEDIA HEADER */
     .h-txt{
         top: 34.9vw;
         z-index: 9999;
@@ -739,11 +739,11 @@
         padding: 0 .8vw;
         font-size: 2vw;
     }
-    /* @MEDIA MAIN 1º CONTAINER */
+/* @MEDIA MAIN 1º CONTAINER */
     .main-first-container{
         background-size: 100vw 85vw;
     }
-    /* @MEDIA 1º BOX (CARD/ABOUT) */
+/* @MEDIA 1º BOX (CARD/ABOUT) */
     .main-first-box{
         flex-direction: column;
         align-items: flex-end;
@@ -816,7 +816,7 @@
         left: 30vw;
         margin-top: 2.5vw;
     }
-    /* @MEDIA 2º BOX (NAV-UL) */
+/* @MEDIA 2º BOX (NAV-UL) */
     .main-second-box{
         width: 100vw;
         background-color: white;  
@@ -847,7 +847,7 @@
     .main-ul a{
         font-size: 2.2vw;
     }
-    /* @MEDIA MAIN SECOND CONTAINER */
+/* @MEDIA MAIN SECOND CONTAINER */
     .attribute{
         text-align: center;
         font-size: 4vw;
@@ -856,7 +856,7 @@
     .mid-img-box{
         flex-direction: column;
     }
-    /* @MEDIA CONFIG CARDS 2º CONTAINER */
+/* @MEDIA CONFIG CARDS 2º CONTAINER */
     .mid-card, .big-card{
         padding-top: 2vw;
         padding-left: 4vw;
@@ -890,7 +890,7 @@
         top: -1.5vw;
         left: -3vw;
     }
-    /* @MEDIA 2º BOX FROM 2º CONTAINER */
+/* @MEDIA 2º BOX FROM 2º CONTAINER */
     .mid-second-box{
         width: 100%;
     }
@@ -908,7 +908,7 @@
         text-align: right;
         margin-right: 5vw;
     }
-    /* @MEDIA MAIN 3º CONTAINER */
+/* @MEDIA MAIN 3º CONTAINER */
     .low-wrapper{
         width: 100%;
         padding-bottom: 2vw;
@@ -920,7 +920,7 @@
         bottom: 1vw;
         left: -15vw;
     }
-    /* @MEDIA 3º CONTAINER DIV BUTTONS */
+/* @MEDIA 3º CONTAINER DIV BUTTONS */
     .main-low-btns{
         flex-direction: column;
         gap: 2vw;
@@ -960,11 +960,11 @@
         width: 16vw;
         margin-top: 0;
     }
-    /* @MEDIA FOOTER CONTAINER */
+/* @MEDIA FOOTER CONTAINER */
     .footer-container{
         flex-direction: column;
     }
-    /* @MEDIA FOOTER 1º DIV */
+/* @MEDIA FOOTER 1º DIV */
     .footer-box{
         width: 100vw;
         padding: 5vw 8vw 30vw;
@@ -1006,7 +1006,7 @@
         bottom: 6vw;
         left: 19vw;
     }
-        /* FOOTER 2º DIV */
+/* FOOTER 2º DIV */
     .footer-img-div{
         width: 100vw;
         height: 55vw;
